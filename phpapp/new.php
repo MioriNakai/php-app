@@ -6,9 +6,11 @@
 </head>
 <body>
   <form action="store.php" method="post">
-    <input type="text" name="content">
+    <!-- ブラウザからNEWPHPリクエストしレスポンスを返す関係。storeに -->
+    <input type="text" name="content"><!-- name属性に当てられているkeyであるcontentに対して連想配列が作られている -->
     <input type="submit" value="作成">
   </form>
+  <!-- 入力フォームをつくっている。入力フォームが作られているのはformタグの中です -->
   <div>
     <a href="index.html">一覧へもどる</a>
   </div>

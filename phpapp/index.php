@@ -1,3 +1,7 @@
+<?php 
+require_once('functions.php'); 
+// こっから始まる
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -8,6 +12,7 @@
   welcome hello world
   <div>
      <a href="new.php">
+      <!-- hrefで指定しているNEWへ移る -->
        <p>新規作成</p>
      </a>
   </div>
